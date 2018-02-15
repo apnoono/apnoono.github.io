@@ -1,0 +1,188 @@
+/* Color Pallete
+  #EF233C -light red
+  #D80032 -dark red
+  #2B2D42 -midnight blue
+  #8D99AE -gray
+  #EDF2F4 -pale white
+*/
+
+/* Global styles */
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1,h2 {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  margin: 0;
+}
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+.content-wrap {
+  maxwidth: 950px;
+  margin: 0 auto;
+  padding: 60px 50px;
+  overflow: auto;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.btn {
+  text-decoration: none;
+  background: #EF233C;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+}
+
+
+
+/* Header and Footer styles */
+header, footer {
+  background: #2B2D42;
+  color: #EDF2F4;
+}
+/* Header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+.content-bg {
+  background-image: url(../images/tech-glasses.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.alpha-bg {
+  background-color: rgba(11, 11, 11, 0.5); /*an alpha transparency screen*/
+}
+header h1, header h2 {
+  color: #EDF2F4;
+  margin: 0;
+}
+blockquote>p:before {
+  content: '\275D';
+  color: red;
+  font-size: 20px;
+}
+blockquote>p:after {
+  content: '\275E';
+  color: red;
+  font-size: 20px;
+}
+.profile-img {
+  border-radius: 50%;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 20px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 20px;
+  display: inline-block;
+  font-size: 30px;
+}
+.fa-linkedin:before {
+  color: #0077B5;
+}
+.fa-github:before {
+  color: #FFFFFF;
+}
+
+
+/* Work Experience styles */
+.work {
+  background: #EDF2F4;
+}
+h3 ~ p {
+  margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description ul {
+  list-style-type: square;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+
+
+/* Education styles */
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.8)),
+              url(../images/book-stack.jpg) no-repeat fixed;
+  background-position: center;
+  background size: cover;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+/* Media Queries */
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float:left;
+    padding-left: 20px;
+  }
+}
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}

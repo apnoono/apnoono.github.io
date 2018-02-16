@@ -18,6 +18,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+  color: #333;
 }
 h1,h2 {
   font-family: 'Reenie Beanie', cursive;
@@ -132,6 +133,35 @@ footer {
 }
 .fa-github:before {
   color: #FFFFFF;
+}
+
+/* Project Experience styles */
+#project-section {
+  background: #EDF2F4;
+}
+
+.showcase {
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.project {
+  width: 210px;
+}
+
+.project-title {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.demo {
+  border: 1px inset blue;
+  border-radius: 5%;
+  width: 200px;
+  box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
 }
 
 

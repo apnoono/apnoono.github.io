@@ -1,0 +1,1243 @@
+/* Paste your CSS here instead of this example */
+
+/* css styles here */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+
+/* Rainbow Text courtesy Hendry Sadrak https://twitter.com/hendrysadrak
+ * Animation module with all animation code
+ */
+.anim-text-flow,
+.anim-text-flow-hover:hover {
+  /*
+   * Animation variables
+   */
+  /*
+   * Elements settings
+   */
+  /*
+   * Keyframe loop
+   */
+  /*
+   * Element animation delay loop
+   */
+}
+.anim-text-flow span,
+.anim-text-flow-hover:hover span {
+  -webkit-animation-name: anim-text-flow-keys;
+          animation-name: anim-text-flow-keys;
+  -webkit-animation-duration: 50s;
+          animation-duration: 50s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+@-webkit-keyframes anim-text-flow-keys {
+  0% {
+    color: #d6645c;
+  }
+  5% {
+    color: #d65cab;
+  }
+  10% {
+    color: #935cd6;
+  }
+  15% {
+    color: #5c7ed6;
+  }
+  20% {
+    color: #5cd6ce;
+  }
+  25% {
+    color: #d65c76;
+  }
+  30% {
+    color: #5cccd6;
+  }
+  35% {
+    color: #d65c8d;
+  }
+  40% {
+    color: #d65c6e;
+  }
+  45% {
+    color: #abd65c;
+  }
+  50% {
+    color: #d65ca3;
+  }
+  55% {
+    color: #d6ab5c;
+  }
+  60% {
+    color: #785cd6;
+  }
+  65% {
+    color: #d65c6c;
+  }
+  70% {
+    color: #d65c8f;
+  }
+  75% {
+    color: #d6665c;
+  }
+  80% {
+    color: #d65e5c;
+  }
+  85% {
+    color: #d65cce;
+  }
+  90% {
+    color: #5cd6c8;
+  }
+  95% {
+    color: #d68d5c;
+  }
+  100% {
+    color: #5cd6a7;
+  }
+}
+@keyframes anim-text-flow-keys {
+  0% {
+    color: #d6645c;
+  }
+  5% {
+    color: #d65cab;
+  }
+  10% {
+    color: #935cd6;
+  }
+  15% {
+    color: #5c7ed6;
+  }
+  20% {
+    color: #5cd6ce;
+  }
+  25% {
+    color: #d65c76;
+  }
+  30% {
+    color: #5cccd6;
+  }
+  35% {
+    color: #d65c8d;
+  }
+  40% {
+    color: #d65c6e;
+  }
+  45% {
+    color: #abd65c;
+  }
+  50% {
+    color: #d65ca3;
+  }
+  55% {
+    color: #d6ab5c;
+  }
+  60% {
+    color: #785cd6;
+  }
+  65% {
+    color: #d65c6c;
+  }
+  70% {
+    color: #d65c8f;
+  }
+  75% {
+    color: #d6665c;
+  }
+  80% {
+    color: #d65e5c;
+  }
+  85% {
+    color: #d65cce;
+  }
+  90% {
+    color: #5cd6c8;
+  }
+  95% {
+    color: #d68d5c;
+  }
+  100% {
+    color: #5cd6a7;
+  }
+}
+.anim-text-flow span:nth-of-type(1),
+.anim-text-flow-hover:hover span:nth-of-type(1) {
+  -webkit-animation-delay: -19.8s;
+          animation-delay: -19.8s;
+}
+.anim-text-flow span:nth-of-type(2),
+.anim-text-flow-hover:hover span:nth-of-type(2) {
+  -webkit-animation-delay: -19.6s;
+          animation-delay: -19.6s;
+}
+.anim-text-flow span:nth-of-type(3),
+.anim-text-flow-hover:hover span:nth-of-type(3) {
+  -webkit-animation-delay: -19.4s;
+          animation-delay: -19.4s;
+}
+.anim-text-flow span:nth-of-type(4),
+.anim-text-flow-hover:hover span:nth-of-type(4) {
+  -webkit-animation-delay: -19.2s;
+          animation-delay: -19.2s;
+}
+.anim-text-flow span:nth-of-type(5),
+.anim-text-flow-hover:hover span:nth-of-type(5) {
+  -webkit-animation-delay: -19s;
+          animation-delay: -19s;
+}
+.anim-text-flow span:nth-of-type(6),
+.anim-text-flow-hover:hover span:nth-of-type(6) {
+  -webkit-animation-delay: -18.8s;
+          animation-delay: -18.8s;
+}
+.anim-text-flow span:nth-of-type(7),
+.anim-text-flow-hover:hover span:nth-of-type(7) {
+  -webkit-animation-delay: -18.6s;
+          animation-delay: -18.6s;
+}
+.anim-text-flow span:nth-of-type(8),
+.anim-text-flow-hover:hover span:nth-of-type(8) {
+  -webkit-animation-delay: -18.4s;
+          animation-delay: -18.4s;
+}
+.anim-text-flow span:nth-of-type(9),
+.anim-text-flow-hover:hover span:nth-of-type(9) {
+  -webkit-animation-delay: -18.2s;
+          animation-delay: -18.2s;
+}
+.anim-text-flow span:nth-of-type(10),
+.anim-text-flow-hover:hover span:nth-of-type(10) {
+  -webkit-animation-delay: -18s;
+          animation-delay: -18s;
+}
+.anim-text-flow span:nth-of-type(11),
+.anim-text-flow-hover:hover span:nth-of-type(11) {
+  -webkit-animation-delay: -17.8s;
+          animation-delay: -17.8s;
+}
+.anim-text-flow span:nth-of-type(12),
+.anim-text-flow-hover:hover span:nth-of-type(12) {
+  -webkit-animation-delay: -17.6s;
+          animation-delay: -17.6s;
+}
+.anim-text-flow span:nth-of-type(13),
+.anim-text-flow-hover:hover span:nth-of-type(13) {
+  -webkit-animation-delay: -17.4s;
+          animation-delay: -17.4s;
+}
+.anim-text-flow span:nth-of-type(14),
+.anim-text-flow-hover:hover span:nth-of-type(14) {
+  -webkit-animation-delay: -17.2s;
+          animation-delay: -17.2s;
+}
+.anim-text-flow span:nth-of-type(15),
+.anim-text-flow-hover:hover span:nth-of-type(15) {
+  -webkit-animation-delay: -17s;
+          animation-delay: -17s;
+}
+.anim-text-flow span:nth-of-type(16),
+.anim-text-flow-hover:hover span:nth-of-type(16) {
+  -webkit-animation-delay: -16.8s;
+          animation-delay: -16.8s;
+}
+.anim-text-flow span:nth-of-type(17),
+.anim-text-flow-hover:hover span:nth-of-type(17) {
+  -webkit-animation-delay: -16.6s;
+          animation-delay: -16.6s;
+}
+.anim-text-flow span:nth-of-type(18),
+.anim-text-flow-hover:hover span:nth-of-type(18) {
+  -webkit-animation-delay: -16.4s;
+          animation-delay: -16.4s;
+}
+.anim-text-flow span:nth-of-type(19),
+.anim-text-flow-hover:hover span:nth-of-type(19) {
+  -webkit-animation-delay: -16.2s;
+          animation-delay: -16.2s;
+}
+.anim-text-flow span:nth-of-type(20),
+.anim-text-flow-hover:hover span:nth-of-type(20) {
+  -webkit-animation-delay: -16s;
+          animation-delay: -16s;
+}
+.anim-text-flow span:nth-of-type(21),
+.anim-text-flow-hover:hover span:nth-of-type(21) {
+  -webkit-animation-delay: -15.8s;
+          animation-delay: -15.8s;
+}
+.anim-text-flow span:nth-of-type(22),
+.anim-text-flow-hover:hover span:nth-of-type(22) {
+  -webkit-animation-delay: -15.6s;
+          animation-delay: -15.6s;
+}
+.anim-text-flow span:nth-of-type(23),
+.anim-text-flow-hover:hover span:nth-of-type(23) {
+  -webkit-animation-delay: -15.4s;
+          animation-delay: -15.4s;
+}
+.anim-text-flow span:nth-of-type(24),
+.anim-text-flow-hover:hover span:nth-of-type(24) {
+  -webkit-animation-delay: -15.2s;
+          animation-delay: -15.2s;
+}
+.anim-text-flow span:nth-of-type(25),
+.anim-text-flow-hover:hover span:nth-of-type(25) {
+  -webkit-animation-delay: -15s;
+          animation-delay: -15s;
+}
+.anim-text-flow span:nth-of-type(26),
+.anim-text-flow-hover:hover span:nth-of-type(26) {
+  -webkit-animation-delay: -14.8s;
+          animation-delay: -14.8s;
+}
+.anim-text-flow span:nth-of-type(27),
+.anim-text-flow-hover:hover span:nth-of-type(27) {
+  -webkit-animation-delay: -14.6s;
+          animation-delay: -14.6s;
+}
+.anim-text-flow span:nth-of-type(28),
+.anim-text-flow-hover:hover span:nth-of-type(28) {
+  -webkit-animation-delay: -14.4s;
+          animation-delay: -14.4s;
+}
+.anim-text-flow span:nth-of-type(29),
+.anim-text-flow-hover:hover span:nth-of-type(29) {
+  -webkit-animation-delay: -14.2s;
+          animation-delay: -14.2s;
+}
+.anim-text-flow span:nth-of-type(30),
+.anim-text-flow-hover:hover span:nth-of-type(30) {
+  -webkit-animation-delay: -14s;
+          animation-delay: -14s;
+}
+.anim-text-flow span:nth-of-type(31),
+.anim-text-flow-hover:hover span:nth-of-type(31) {
+  -webkit-animation-delay: -13.8s;
+          animation-delay: -13.8s;
+}
+.anim-text-flow span:nth-of-type(32),
+.anim-text-flow-hover:hover span:nth-of-type(32) {
+  -webkit-animation-delay: -13.6s;
+          animation-delay: -13.6s;
+}
+.anim-text-flow span:nth-of-type(33),
+.anim-text-flow-hover:hover span:nth-of-type(33) {
+  -webkit-animation-delay: -13.4s;
+          animation-delay: -13.4s;
+}
+.anim-text-flow span:nth-of-type(34),
+.anim-text-flow-hover:hover span:nth-of-type(34) {
+  -webkit-animation-delay: -13.2s;
+          animation-delay: -13.2s;
+}
+.anim-text-flow span:nth-of-type(35),
+.anim-text-flow-hover:hover span:nth-of-type(35) {
+  -webkit-animation-delay: -13s;
+          animation-delay: -13s;
+}
+.anim-text-flow span:nth-of-type(36),
+.anim-text-flow-hover:hover span:nth-of-type(36) {
+  -webkit-animation-delay: -12.8s;
+          animation-delay: -12.8s;
+}
+.anim-text-flow span:nth-of-type(37),
+.anim-text-flow-hover:hover span:nth-of-type(37) {
+  -webkit-animation-delay: -12.6s;
+          animation-delay: -12.6s;
+}
+.anim-text-flow span:nth-of-type(38),
+.anim-text-flow-hover:hover span:nth-of-type(38) {
+  -webkit-animation-delay: -12.4s;
+          animation-delay: -12.4s;
+}
+.anim-text-flow span:nth-of-type(39),
+.anim-text-flow-hover:hover span:nth-of-type(39) {
+  -webkit-animation-delay: -12.2s;
+          animation-delay: -12.2s;
+}
+.anim-text-flow span:nth-of-type(40),
+.anim-text-flow-hover:hover span:nth-of-type(40) {
+  -webkit-animation-delay: -12s;
+          animation-delay: -12s;
+}
+.anim-text-flow span:nth-of-type(41),
+.anim-text-flow-hover:hover span:nth-of-type(41) {
+  -webkit-animation-delay: -11.8s;
+          animation-delay: -11.8s;
+}
+.anim-text-flow span:nth-of-type(42),
+.anim-text-flow-hover:hover span:nth-of-type(42) {
+  -webkit-animation-delay: -11.6s;
+          animation-delay: -11.6s;
+}
+.anim-text-flow span:nth-of-type(43),
+.anim-text-flow-hover:hover span:nth-of-type(43) {
+  -webkit-animation-delay: -11.4s;
+          animation-delay: -11.4s;
+}
+.anim-text-flow span:nth-of-type(44),
+.anim-text-flow-hover:hover span:nth-of-type(44) {
+  -webkit-animation-delay: -11.2s;
+          animation-delay: -11.2s;
+}
+.anim-text-flow span:nth-of-type(45),
+.anim-text-flow-hover:hover span:nth-of-type(45) {
+  -webkit-animation-delay: -11s;
+          animation-delay: -11s;
+}
+.anim-text-flow span:nth-of-type(46),
+.anim-text-flow-hover:hover span:nth-of-type(46) {
+  -webkit-animation-delay: -10.8s;
+          animation-delay: -10.8s;
+}
+.anim-text-flow span:nth-of-type(47),
+.anim-text-flow-hover:hover span:nth-of-type(47) {
+  -webkit-animation-delay: -10.6s;
+          animation-delay: -10.6s;
+}
+.anim-text-flow span:nth-of-type(48),
+.anim-text-flow-hover:hover span:nth-of-type(48) {
+  -webkit-animation-delay: -10.4s;
+          animation-delay: -10.4s;
+}
+.anim-text-flow span:nth-of-type(49),
+.anim-text-flow-hover:hover span:nth-of-type(49) {
+  -webkit-animation-delay: -10.2s;
+          animation-delay: -10.2s;
+}
+.anim-text-flow span:nth-of-type(50),
+.anim-text-flow-hover:hover span:nth-of-type(50) {
+  -webkit-animation-delay: -10s;
+          animation-delay: -10s;
+}
+.anim-text-flow span:nth-of-type(51),
+.anim-text-flow-hover:hover span:nth-of-type(51) {
+  -webkit-animation-delay: -9.8s;
+          animation-delay: -9.8s;
+}
+.anim-text-flow span:nth-of-type(52),
+.anim-text-flow-hover:hover span:nth-of-type(52) {
+  -webkit-animation-delay: -9.6s;
+          animation-delay: -9.6s;
+}
+.anim-text-flow span:nth-of-type(53),
+.anim-text-flow-hover:hover span:nth-of-type(53) {
+  -webkit-animation-delay: -9.4s;
+          animation-delay: -9.4s;
+}
+.anim-text-flow span:nth-of-type(54),
+.anim-text-flow-hover:hover span:nth-of-type(54) {
+  -webkit-animation-delay: -9.2s;
+          animation-delay: -9.2s;
+}
+.anim-text-flow span:nth-of-type(55),
+.anim-text-flow-hover:hover span:nth-of-type(55) {
+  -webkit-animation-delay: -9s;
+          animation-delay: -9s;
+}
+.anim-text-flow span:nth-of-type(56),
+.anim-text-flow-hover:hover span:nth-of-type(56) {
+  -webkit-animation-delay: -8.8s;
+          animation-delay: -8.8s;
+}
+.anim-text-flow span:nth-of-type(57),
+.anim-text-flow-hover:hover span:nth-of-type(57) {
+  -webkit-animation-delay: -8.6s;
+          animation-delay: -8.6s;
+}
+.anim-text-flow span:nth-of-type(58),
+.anim-text-flow-hover:hover span:nth-of-type(58) {
+  -webkit-animation-delay: -8.4s;
+          animation-delay: -8.4s;
+}
+.anim-text-flow span:nth-of-type(59),
+.anim-text-flow-hover:hover span:nth-of-type(59) {
+  -webkit-animation-delay: -8.2s;
+          animation-delay: -8.2s;
+}
+.anim-text-flow span:nth-of-type(60),
+.anim-text-flow-hover:hover span:nth-of-type(60) {
+  -webkit-animation-delay: -8s;
+          animation-delay: -8s;
+}
+.anim-text-flow span:nth-of-type(61),
+.anim-text-flow-hover:hover span:nth-of-type(61) {
+  -webkit-animation-delay: -7.8s;
+          animation-delay: -7.8s;
+}
+.anim-text-flow span:nth-of-type(62),
+.anim-text-flow-hover:hover span:nth-of-type(62) {
+  -webkit-animation-delay: -7.6s;
+          animation-delay: -7.6s;
+}
+.anim-text-flow span:nth-of-type(63),
+.anim-text-flow-hover:hover span:nth-of-type(63) {
+  -webkit-animation-delay: -7.4s;
+          animation-delay: -7.4s;
+}
+.anim-text-flow span:nth-of-type(64),
+.anim-text-flow-hover:hover span:nth-of-type(64) {
+  -webkit-animation-delay: -7.2s;
+          animation-delay: -7.2s;
+}
+.anim-text-flow span:nth-of-type(65),
+.anim-text-flow-hover:hover span:nth-of-type(65) {
+  -webkit-animation-delay: -7s;
+          animation-delay: -7s;
+}
+.anim-text-flow span:nth-of-type(66),
+.anim-text-flow-hover:hover span:nth-of-type(66) {
+  -webkit-animation-delay: -6.8s;
+          animation-delay: -6.8s;
+}
+.anim-text-flow span:nth-of-type(67),
+.anim-text-flow-hover:hover span:nth-of-type(67) {
+  -webkit-animation-delay: -6.6s;
+          animation-delay: -6.6s;
+}
+.anim-text-flow span:nth-of-type(68),
+.anim-text-flow-hover:hover span:nth-of-type(68) {
+  -webkit-animation-delay: -6.4s;
+          animation-delay: -6.4s;
+}
+.anim-text-flow span:nth-of-type(69),
+.anim-text-flow-hover:hover span:nth-of-type(69) {
+  -webkit-animation-delay: -6.2s;
+          animation-delay: -6.2s;
+}
+.anim-text-flow span:nth-of-type(70),
+.anim-text-flow-hover:hover span:nth-of-type(70) {
+  -webkit-animation-delay: -6s;
+          animation-delay: -6s;
+}
+.anim-text-flow span:nth-of-type(71),
+.anim-text-flow-hover:hover span:nth-of-type(71) {
+  -webkit-animation-delay: -5.8s;
+          animation-delay: -5.8s;
+}
+.anim-text-flow span:nth-of-type(72),
+.anim-text-flow-hover:hover span:nth-of-type(72) {
+  -webkit-animation-delay: -5.6s;
+          animation-delay: -5.6s;
+}
+.anim-text-flow span:nth-of-type(73),
+.anim-text-flow-hover:hover span:nth-of-type(73) {
+  -webkit-animation-delay: -5.4s;
+          animation-delay: -5.4s;
+}
+.anim-text-flow span:nth-of-type(74),
+.anim-text-flow-hover:hover span:nth-of-type(74) {
+  -webkit-animation-delay: -5.2s;
+          animation-delay: -5.2s;
+}
+.anim-text-flow span:nth-of-type(75),
+.anim-text-flow-hover:hover span:nth-of-type(75) {
+  -webkit-animation-delay: -5s;
+          animation-delay: -5s;
+}
+.anim-text-flow span:nth-of-type(76),
+.anim-text-flow-hover:hover span:nth-of-type(76) {
+  -webkit-animation-delay: -4.8s;
+          animation-delay: -4.8s;
+}
+.anim-text-flow span:nth-of-type(77),
+.anim-text-flow-hover:hover span:nth-of-type(77) {
+  -webkit-animation-delay: -4.6s;
+          animation-delay: -4.6s;
+}
+.anim-text-flow span:nth-of-type(78),
+.anim-text-flow-hover:hover span:nth-of-type(78) {
+  -webkit-animation-delay: -4.4s;
+          animation-delay: -4.4s;
+}
+.anim-text-flow span:nth-of-type(79),
+.anim-text-flow-hover:hover span:nth-of-type(79) {
+  -webkit-animation-delay: -4.2s;
+          animation-delay: -4.2s;
+}
+.anim-text-flow span:nth-of-type(80),
+.anim-text-flow-hover:hover span:nth-of-type(80) {
+  -webkit-animation-delay: -4s;
+          animation-delay: -4s;
+}
+.anim-text-flow span:nth-of-type(81),
+.anim-text-flow-hover:hover span:nth-of-type(81) {
+  -webkit-animation-delay: -3.8s;
+          animation-delay: -3.8s;
+}
+.anim-text-flow span:nth-of-type(82),
+.anim-text-flow-hover:hover span:nth-of-type(82) {
+  -webkit-animation-delay: -3.6s;
+          animation-delay: -3.6s;
+}
+.anim-text-flow span:nth-of-type(83),
+.anim-text-flow-hover:hover span:nth-of-type(83) {
+  -webkit-animation-delay: -3.4s;
+          animation-delay: -3.4s;
+}
+.anim-text-flow span:nth-of-type(84),
+.anim-text-flow-hover:hover span:nth-of-type(84) {
+  -webkit-animation-delay: -3.2s;
+          animation-delay: -3.2s;
+}
+.anim-text-flow span:nth-of-type(85),
+.anim-text-flow-hover:hover span:nth-of-type(85) {
+  -webkit-animation-delay: -3s;
+          animation-delay: -3s;
+}
+.anim-text-flow span:nth-of-type(86),
+.anim-text-flow-hover:hover span:nth-of-type(86) {
+  -webkit-animation-delay: -2.8s;
+          animation-delay: -2.8s;
+}
+.anim-text-flow span:nth-of-type(87),
+.anim-text-flow-hover:hover span:nth-of-type(87) {
+  -webkit-animation-delay: -2.6s;
+          animation-delay: -2.6s;
+}
+.anim-text-flow span:nth-of-type(88),
+.anim-text-flow-hover:hover span:nth-of-type(88) {
+  -webkit-animation-delay: -2.4s;
+          animation-delay: -2.4s;
+}
+.anim-text-flow span:nth-of-type(89),
+.anim-text-flow-hover:hover span:nth-of-type(89) {
+  -webkit-animation-delay: -2.2s;
+          animation-delay: -2.2s;
+}
+.anim-text-flow span:nth-of-type(90),
+.anim-text-flow-hover:hover span:nth-of-type(90) {
+  -webkit-animation-delay: -2s;
+          animation-delay: -2s;
+}
+.anim-text-flow span:nth-of-type(91),
+.anim-text-flow-hover:hover span:nth-of-type(91) {
+  -webkit-animation-delay: -1.8s;
+          animation-delay: -1.8s;
+}
+.anim-text-flow span:nth-of-type(92),
+.anim-text-flow-hover:hover span:nth-of-type(92) {
+  -webkit-animation-delay: -1.6s;
+          animation-delay: -1.6s;
+}
+.anim-text-flow span:nth-of-type(93),
+.anim-text-flow-hover:hover span:nth-of-type(93) {
+  -webkit-animation-delay: -1.4s;
+          animation-delay: -1.4s;
+}
+.anim-text-flow span:nth-of-type(94),
+.anim-text-flow-hover:hover span:nth-of-type(94) {
+  -webkit-animation-delay: -1.2s;
+          animation-delay: -1.2s;
+}
+.anim-text-flow span:nth-of-type(95),
+.anim-text-flow-hover:hover span:nth-of-type(95) {
+  -webkit-animation-delay: -1s;
+          animation-delay: -1s;
+}
+.anim-text-flow span:nth-of-type(96),
+.anim-text-flow-hover:hover span:nth-of-type(96) {
+  -webkit-animation-delay: -0.8s;
+          animation-delay: -0.8s;
+}
+.anim-text-flow span:nth-of-type(97),
+.anim-text-flow-hover:hover span:nth-of-type(97) {
+  -webkit-animation-delay: -0.6s;
+          animation-delay: -0.6s;
+}
+.anim-text-flow span:nth-of-type(98),
+.anim-text-flow-hover:hover span:nth-of-type(98) {
+  -webkit-animation-delay: -0.4s;
+          animation-delay: -0.4s;
+}
+.anim-text-flow span:nth-of-type(99),
+.anim-text-flow-hover:hover span:nth-of-type(99) {
+  -webkit-animation-delay: -0.2s;
+          animation-delay: -0.2s;
+}
+.anim-text-flow span:nth-of-type(100),
+.anim-text-flow-hover:hover span:nth-of-type(100) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+/* game styles */
+body {
+  background: black;
+  color: white;
+  text-rendering: optimizeLegibility;
+}
+.content-wrap {
+  max-width: 440px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 30px;
+  padding-top: 5px;
+}
+h1, h2 {
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+  margin: 0;
+}
+.txt {
+  display: block;
+}
+
+/* HUD and Game Board styles */
+.hud {
+  font-family: 'Ceviche One', cursive;
+  position: relative;
+}
+#move-counter, #timer, #reset-button, #audio-toggle {
+  display: inline-block;
+  text-align: center;
+  width: 20%
+}
+#reset-button, #audio-toggle {
+  color: white;
+  background: #9444dd;
+  border: 3px outset #8a2be2;
+}
+#reset-button:hover, #audio-toggle:hover {
+  border: 3px outset #FFD700;
+  cursor: pointer;
+}
+#reset-button:active, #audio-toggle:active {
+  background: #8a2be2;
+  border: 3px inset #aaaaaa;
+}
+
+.game {
+  background: #C0C0C0;
+  background-image: -webkit-linear-gradient(left, rgba(62, 68, 74, 0.5),
+  rgba(192, 192, 192, 0.4),
+  rgba(91, 96, 105, 0.5)),
+  -webkit-repeating-linear-gradient(bottom, rgba(1, 5, 8, 0.26),
+  rgba(189, 189, 189, 0.4) 2.5px),
+  -webkit-repeating-linear-gradient(bottom, rgba(2, 23, 38, 0.32),
+  rgba(192, 192, 192, 0.4) 2.7px),
+  -webkit-repeating-linear-gradient(bottom, rgba(58, 65, 71, 0.6),
+  rgba(224, 226, 227, 0.3) 3.0px),
+  -webkit-repeating-linear-gradient(bottom, rgba(91, 95, 98, 0.5),
+  rgba(55, 170, 233, 0.26) 4.5px);
+
+  background-image: -o-linear-gradient(left, rgba(62, 68, 74, 0.5),
+  rgba(192, 192, 192, 0.4),
+  rgba(91, 96, 105, 0.5)),
+  -o-repeating-linear-gradient(bottom, rgba(1, 5, 8, 0.26),
+  rgba(189, 189, 189, 0.4) 2.5px),
+  -o-repeating-linear-gradient(bottom, rgba(2, 23, 38, 0.32),
+  rgba(192, 192, 192, 0.4) 2.7px),
+  -o-repeating-linear-gradient(bottom, rgba(58, 65, 71, 0.6),
+  rgba(224, 226, 227, 0.3) 3.0px),
+  -o-repeating-linear-gradient(bottom, rgba(91, 95, 98, 0.5),
+  rgba(55, 170, 233, 0.26) 4.5px);
+
+  background-image: linear-gradient(90deg, rgba(62, 68, 74, 0.5),
+  rgba(192, 192, 192, 0.4),
+  rgba(91, 96, 105, 0.5)),
+  repeating-linear-gradient(0deg, rgba(1, 5, 8, 0.26),
+  rgba(189, 189, 189, 0.4) 2.5px),
+  repeating-linear-gradient(0deg, rgba(2, 23, 38, 0.32),
+  rgba(192, 192, 192, 0.4) 2.7px),
+  repeating-linear-gradient(0deg, rgba(58, 65, 71, 0.6),
+  rgba(224, 226, 227, 0.3) 3.0px),
+  repeating-linear-gradient(0deg, rgba(91, 95, 98, 0.5),
+  rgba(55, 170, 233, 0.26) 4.5px);
+}
+
+.tile:hover {
+  border: 3px solid #FFD700;
+  cursor: pointer;
+}
+.tile > div {
+  width: 100%;
+  height: 200%;
+  position: absolute;
+  top: 0;
+  -webkit-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms;
+}
+.tile > div > div {
+  height: 50%;
+}
+
+.tile > div > div:first-child {
+  background: gray;
+  background-image: url(../images/fancy-house.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.face > div > div:first-child {
+  background: gray;
+  background-image: url(../images/warholian.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* style to slide the drawer upwards upon click
+ * .flip class activated via JS event listener
+ */
+.flip > div {
+  top: -100%
+}
+/* tile color pallete */
+
+.tile-0 {
+  background: #DC143C; /* CRIMSON */
+}
+.tile-1 {
+  background: #00FFFF; /* CYAN */
+}
+.tile-2 {
+  background: #DAA520; /* GOLDENROD */
+}
+.tile-3 {
+  background: #FF1493; /* DEEP PINK */
+}
+.tile-4 {
+  background: #FF00FF; /* MAGENTA */
+}
+.tile-5 {
+  background: #F8F8FF; /* GHOST WHITE */
+}
+.tile-6 {
+  background: #00FF7F; /* SPRING GREEN */
+}
+.tile-7 {
+  background: #1E90FF; /* DODGER BLUE */
+}
+.tile-8 {
+  background: #000000; /* BLACK */
+}
+.tile-9 {
+  background: #FFC0CB /* PINK */
+}
+.tile-10 {
+  background: #00FF00 /* LIME */
+}
+.tile-11 {
+  background: #808000 /* OLIVE */
+}
+.tile-12 {
+  background: #000080 /* NAVY */
+}
+.tile-13 {
+  background: #800080 /* PURPLE */
+}
+.tile-14 {
+  background: #FF0000 /* RED */
+}
+.tile-15 {
+  background: #FF8C00 /* DARKORANGE */
+}
+.tile-16 {
+  background: #FFFF00 /* YELLOW */
+}
+.tile-17 {
+  background: #2F4F4F /* DARKSLATEGREY */
+}
+.tile-18 {
+  background: #D2691E /* CHOCOLATE */
+}
+
+/*End Game styles */
+.tile-off {
+  display: none;
+}
+
+/* hide end game text until called by JScript */
+.hidden {
+  display: none;
+}
+
+.ending {
+  -webkit-animation-name: contract;
+          animation-name: contract;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0;
+          animation-delay: 0;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes contract {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    background-color: #d6645c;
+    border-radius:0%;
+  }
+  5% {
+    background-color: #d65cab;
+    border-radius:5%;
+  }
+  10% {
+    background-color: #935cd6;
+    border-radius:10%;
+  }
+  15% {
+    background-color: #5c7ed6;
+    border-radius:15%;
+  }
+  20% {
+    background-color: #5cd6ce;
+    border-radius:20%;
+  }
+  25% {
+    background-color: #d65c76;
+    border-radius:25%;
+  }
+  30% {
+    background-color: #5cccd6;
+    border-radius:30%;
+  }
+  35% {
+    background-color: #d65c8d;
+    border-radius:35%;
+  }
+  40% {
+    background-color/: #d65c6e;
+    border-radius:40%;
+  }
+  45% {
+    background-color: #abd65c;
+    border-radius:45%;
+  }
+  50% {
+    background-color: #d65ca3;
+    border-radius:50%;
+  }
+  55% {
+    background-color: #d6ab5c;
+    border-radius:55%;
+  }
+  60% {
+    background-color: #785cd6;
+    border-radius:60%;
+  }
+  65% {
+    background-color: #d65c6c;
+    border-radius:65%;
+  }
+  70% {
+    background-color: #d65c8f;
+    border-radius:70%;
+  }
+  75% {
+    background-color: #d6665c;
+    border-radius:75%;
+  }
+  80% {
+    background-color: #d65e5c;
+    border-radius:80%;
+  }
+  85% {
+    background-color: #d65cce;
+    border-radius:85%;
+  }
+  90% {
+    background-color: #5cd6c8;
+    border-radius:90%;
+  }
+  95% {
+    background-color: #d68d5c;
+    border-radius:95%;
+  }
+  100% {
+    -webkit-transform: scale(.01);
+            transform: scale(.01);
+    background-color: #5cd6a7;
+    border-radius:100%;
+  }
+}
+@keyframes contract {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    background-color: #d6645c;
+    border-radius:0%;
+  }
+  5% {
+    background-color: #d65cab;
+    border-radius:5%;
+  }
+  10% {
+    background-color: #935cd6;
+    border-radius:10%;
+  }
+  15% {
+    background-color: #5c7ed6;
+    border-radius:15%;
+  }
+  20% {
+    background-color: #5cd6ce;
+    border-radius:20%;
+  }
+  25% {
+    background-color: #d65c76;
+    border-radius:25%;
+  }
+  30% {
+    background-color: #5cccd6;
+    border-radius:30%;
+  }
+  35% {
+    background-color: #d65c8d;
+    border-radius:35%;
+  }
+  40% {
+    background-color/: #d65c6e;
+    border-radius:40%;
+  }
+  45% {
+    background-color: #abd65c;
+    border-radius:45%;
+  }
+  50% {
+    background-color: #d65ca3;
+    border-radius:50%;
+  }
+  55% {
+    background-color: #d6ab5c;
+    border-radius:55%;
+  }
+  60% {
+    background-color: #785cd6;
+    border-radius:60%;
+  }
+  65% {
+    background-color: #d65c6c;
+    border-radius:65%;
+  }
+  70% {
+    background-color: #d65c8f;
+    border-radius:70%;
+  }
+  75% {
+    background-color: #d6665c;
+    border-radius:75%;
+  }
+  80% {
+    background-color: #d65e5c;
+    border-radius:80%;
+  }
+  85% {
+    background-color: #d65cce;
+    border-radius:85%;
+  }
+  90% {
+    background-color: #5cd6c8;
+    border-radius:90%;
+  }
+  95% {
+    background-color: #d68d5c;
+    border-radius:95%;
+  }
+  100% {
+    -webkit-transform: scale(.01);
+            transform: scale(.01);
+    background-color: #5cd6a7;
+    border-radius:100%;
+  }
+}
+
+ /* Typewriter Effect Animation courtesy Geoff Graham
+  * https://css-tricks.com/snippets/css/typewriter-effect/
+  */
+.end-text {
+  -webkit-animation: typewriter 3s steps(60) 1s 1 normal both,
+       blinkTextCursor 500ms steps(60) infinite normal;
+          animation: typewriter 3s steps(60, end),
+       blinkTextCursor 500ms steps(60) infinite normal;
+  }
+  @-webkit-keyframes typewriter{
+    from{width: 0}
+    to{width: 100%}
+  }
+  @keyframes typewriter{
+    from{width: 0}
+    to{width: 100%}
+  }
+  @-webkit-keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+  .line-1 {
+    position: relative;
+    top: 50%;
+    margin: 0 auto;
+    border-right: .10em solid rgba(255,255,255,.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Audiowide', cursive;
+  }
+
+  /* Spin animation courtesy @teerapuch
+   * https://codepen.io/teerapuch/pen/vLJXeR
+   */
+
+  /* Alternate tile upon completion */
+
+  .spin {
+    -webkit-animation-name: spin;
+            animation-name: spin;
+    -webkit-animation-duration: 420s;
+            animation-duration: 420s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+            animation-timing-function: linear;
+    }
+    @-webkit-keyframes spin {
+      from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+      to {-webkit-transform:rotate(14400deg);transform:rotate(14400deg);}
+    }
+    @keyframes spin {
+      from {-webkit-transform:rotate(0deg);transform:rotate(0deg);}
+      to {-webkit-transform:rotate(14400deg);transform:rotate(14400deg);}
+    }
+
+/* Footer Styles */
+a {
+  color: #EF233C;
+}
+a:hover {
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin: 0;
+  font-family: 'Audiowide', cursive;
+}
+.contact-info a {
+  margin: 0 20px;
+  display: inline-block;
+  font-size: 25px;
+}
+.fa-linkedin:before {
+  color: #0077B5;
+}
+.fa-github:before {
+  color: #FFFFFF;
+}
+
+@media (min-width: 900px) {
+  .hud {
+  font-size: 16px;
+  width: 440px;
+  padding-bottom: 50px;
+  }
+  #move-counter, #timer, #reset-button, #audio-toggle {
+    margin: 10px;
+  }
+  .game {
+    width: 400px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 5px outset #A5A5A5;
+    border-radius: 10%;
+    margin: 10px auto;
+    padding-top: 5px;
+    justify-content: center;
+  }
+  .tile {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    overflow: hidden;
+    margin: 4px;
+    border-style: inset;
+    border-radius: 30%;
+  }
+  .line-1 {
+    font-size: 200%;
+  }
+  footer {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 899px) {
+  .hud{
+  font-size: 14px;
+  width: device-width;
+  padding-bottom: 50px;
+  }
+  #move-counter, #timer, #reset-button, #audio-toggle {
+    margin: 5px;
+  }
+  .game {
+    width: 275px;
+    height: 275px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    border: 3px outset #A5A5A5;
+    border-radius: 10%;
+    margin: 5px auto;
+    justify-content: center;
+  }
+  .tile {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 2px;
+    border-style: inset;
+    border-radius: 30%;
+  }
+  .line-1 {
+    font-size: 150%;
+  }
+  footer {
+    padding-top: 50px;
+  }
+}

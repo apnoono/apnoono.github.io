@@ -110,6 +110,7 @@ nav {
   width: 100%;
   top: 0;
   z-index: 1;
+  box-shadow: 10px 5px 5px #696969;
 }
 nav a {
   display: inline-block;

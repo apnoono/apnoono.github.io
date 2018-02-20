@@ -1,3 +1,13 @@
+/* Project Title: MemoSek ver 1.0
+ * Developer: Andrew Noonoo
+ * Date: 2/15/2018
+ * This project was completed while following Make School's Concentration game
+ * tutorial:
+ * https://www.makeschool.com/online-courses/tutorials/javascript-concentration-game/javascript-game-tutorial-intro
+ * Personal customizations include: images, an in-game timer/move counter, sound,
+ * and various CSS animations
+ */
+
 //jQuery snippet to activate Rainbow Text
 $('.txt').html(function(i, html) {
   var chars = $.trim(html).split("");

@@ -60,7 +60,9 @@ function moveCounter() {
 Tile.prototype.handleEvent = function(e) {
   switch (e.type) {
     case "click":
-      audioClick();
+      if (musicOn) {
+        audioClick();
+      }
       //start clock and turn off ambience on first click
       if(moves === 0) {
         clockTick();
@@ -293,7 +295,9 @@ async function timeOver() {
     stopSpin();
   }
   rainbowFade();
-  timeOut.play();
+  if (musicOn) {
+    timeOut.play();
+  }
   await sleep(2500);
   gameOverText.classList.remove('hidden');
   await sleep(6000);
@@ -302,7 +306,9 @@ async function timeOver() {
 
 async function playerWin1() {
   rainbowFade();
-  winner.play();
+  if (musicOn) {
+    winner.play();
+  }
   await sleep(2500);
   gameWinText1.classList.remove('hidden');
   await sleep(6000);
@@ -325,7 +331,9 @@ async function getReady() {
 async function playerWin2() {
   stopSpin();
   rainbowFade();
-  winner.play();
+  if (musicOn) {
+    winner.play();
+  }
   await sleep(2500);
   gameWinText2.classList.remove('hidden');
   await sleep(5000);

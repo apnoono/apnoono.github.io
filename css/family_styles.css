@@ -1,0 +1,25 @@
+body {
+  background-image: url(../images/hip-square.png);
+}
+
+.head {
+  height: 100px;
+  width: 100px;
+  background-color: brown;
+  border-radius: 100%;
+  text-align: center;
+  /* declarations to center text within element */
+  vertical-align: middle;
+  line-height: 100px;
+
+}
+
+.body {
+  height: 300px;
+  width: 100px;
+  background-color: red;
+  text-align: center;
+  /* declarations to center text within element */
+  vertical-align: middle;
+  line-height: 300px;
+}

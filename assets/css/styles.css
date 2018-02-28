@@ -70,7 +70,7 @@ header {
   position: relative;
 }
 .content-bg {
-  background-image: url(../images/tech-glasses.jpg);
+  background-image: url(../assets/images/tech-glasses.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -188,7 +188,7 @@ h3 ~ p {
 /* Education styles */
 .education {
   background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.8)),
-              url(../images/book-stack.jpg) no-repeat fixed;
+              url(../assets/images/book-stack.jpg) no-repeat fixed;
   background-position: center;
   background size: cover;
 }

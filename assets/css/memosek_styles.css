@@ -777,7 +777,7 @@ h1, h2 {
 
 .tile > div > div:first-child {
   background: gray;
-  background-image: url(../images/fancy-house.png);
+  background-image: url(../assets/images/fancy-house.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -785,7 +785,7 @@ h1, h2 {
 
 .face > div > div:first-child {
   background: gray;
-  background-image: url(../images/warholian.png);
+  background-image: url(../assets/images/warholian.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

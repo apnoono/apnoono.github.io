@@ -28,7 +28,7 @@ var timer;
 var sec;
 var min;
 var manicMode = false;
-var musicOn = false;
+var audioOn = false;
 var timeOut = document.getElementsByTagName("audio")[1];
 var winner = document.getElementsByTagName("audio")[2];
 var gameOverText = document.getElementsByClassName("hidden")[0];
@@ -60,7 +60,7 @@ function moveCounter() {
 Tile.prototype.handleEvent = function(e) {
   switch (e.type) {
     case "click":
-      if (musicOn) {
+      if (audioOn) {
         audioClick();
       }
       //start clock and turn off ambience on first click
@@ -132,17 +132,17 @@ function audioClick() {
 
 function ambientOff() {
   document.getElementsByTagName("audio")[3].pause();
-  musicOn = false;
+  audioOn = false;
 }
 
 function ambientOn() {
   document.getElementsByTagName("audio")[3].load();
   document.getElementsByTagName("audio")[3].play();
-  musicOn = true;
+  audioOn = true;
 }
 
 function toggleAudio() {
-  if (musicOn) {
+  if (audioOn) {
     ambientOff();
   } else {
     ambientOn();
@@ -295,7 +295,7 @@ async function timeOver() {
     stopSpin();
   }
   rainbowFade();
-  if (musicOn) {
+  if (audioOn) {
     timeOut.play();
   }
   await sleep(2500);
@@ -306,7 +306,7 @@ async function timeOver() {
 
 async function playerWin1() {
   rainbowFade();
-  if (musicOn) {
+  if (audioOn) {
     winner.play();
   }
   await sleep(2500);
@@ -331,7 +331,7 @@ async function getReady() {
 async function playerWin2() {
   stopSpin();
   rainbowFade();
-  if (musicOn) {
+  if (audioOn) {
     winner.play();
   }
   await sleep(2500);

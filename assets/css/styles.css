@@ -151,7 +151,7 @@ footer {
 
 .project {
   width: 210px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 
 .project-title {
@@ -168,7 +168,7 @@ footer {
 .demo2 {
   border: 1px inset blue;
   border-radius: 5%;
-  width: 568px;
+  width: 200px;
   box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
 }
 

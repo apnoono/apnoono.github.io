@@ -151,6 +151,7 @@ footer {
 
 .project {
   width: 210px;
+  margin-left: 10px;
 }
 
 .project-title {
@@ -158,10 +159,16 @@ footer {
   text-align: center;
 }
 
-.demo {
+.demo1 {
   border: 1px inset blue;
   border-radius: 5%;
   width: 200px;
+  box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
+}
+.demo2 {
+  border: 1px inset blue;
+  border-radius: 5%;
+  width: 568px;
   box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
 }
 

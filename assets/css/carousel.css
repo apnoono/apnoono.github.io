@@ -4,10 +4,16 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  /* padding-bottom: 1rem; */
   color: #5a5a5a;
+  position: relative;
+  margin: 0;
 }
 
+.navbar-brand {
+  font-family: 'Spectral SC', serif;
+  font-weight: bold;
+}
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -27,6 +33,10 @@ body {
   height: 32rem;
   background-color: #777;
 }
+.carousel-caption h1 {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .carousel-item > img {
   position: absolute;
   top: 0;
@@ -40,14 +50,18 @@ body {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.marketing .col-lg-3 {
   margin-bottom: 1.5rem;
   text-align: center;
 }
 .marketing h2 {
-  font-weight: normal;
+  font-weight: bold;
+  font-size: 15px;
 }
-.marketing .col-lg-4 p {
+.rounded-circle {
+  padding-bottom: 10px;
+}
+.marketing .col-lg-3 p {
   margin-right: .75rem;
   margin-left: .75rem;
 }
@@ -55,9 +69,23 @@ body {
 
 /* Featurettes
 ------------------------- */
+.shadow-case {
+  box-shadow: 10px 5px 5px #292B2C;
+}
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 2rem 0; /* Space out the Bootstrap <hr> more default =5rem*/
+}
+
+.lead:before {
+  content: '\275D';
+  color: #CC3F1C;
+  font-size: 20px;
+}
+.lead:after {
+  content: '\275E';
+  color: #CC3F1C;
+  font-size: 20px;
 }
 
 /* Thin out the marketing headings */
@@ -68,11 +96,97 @@ body {
 }
 
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;}
+}
+
+.lead:before {
+  content: '\275D';
+  color: #CC3F1C;
+  font-size: 20px;
+}
+.clearfix > a {
+  text-decoration: none;
+  color: #CC3F1C;
+}
+.clearfix > a:hover {
+  text-decoration: none;
+  background-color: rgba(169,169,169,.3);
+  border-radius: 5%;
+}
+/* Errata FOOTER
+------------------------------ */
+footer {
+  padding: 10px;
+  margin: 0 auto;
+  background-color: #292B2C;
+  width: device-width;
+}
+
+.motto {
+  font-family: 'Spectral SC', serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px gray;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  color: white;
+}
+.link-headings {
+  font-family: 'Spectral SC', serif;
+}
+.errata-links{
+  text-decoration: none;
+  font-size: 11px;
+  color: #CC3F1C;
+}
+.errata-links:hover {
+  text-decoration: none;
+  background-color: rgba(169,169,169,.3);
+  border-radius: 5%;
+  color: #CC3F1C;
+}
+.copyright {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 20px;
+}
+
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-
+@media (min-width: > 40em) {
+  .hide {
+    display: none;
+  }
+}
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
+  body {
+    padding-top: 3rem;
+    /* padding-bottom: 1rem; */
+    color: #5a5a5a;
+    position: relative;
+    margin: 0;
+  }
+  .hide {
+    display: ;
+  }
+  .sidebar {
+    width: 5%;
+    text-align: center;
+    position: fixed;
+    margin-left: 1200px;
+    font-size: 30px;
+    z-index: 3;
+    padding-top: 30px;
+  }
+  .fa {
+    color: #CC3F1C;
+    margin-top: 20px;
+  }
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
@@ -82,6 +196,7 @@ body {
   .featurette-heading {
     font-size: 50px;
   }
+
 }
 
 @media (min-width: 62em) {

@@ -6,13 +6,14 @@
     <meta name="description" content="Water Color Painting Gallery">
     <meta name="author" content="Andrew Noonoo">
     <link rel="icon" href="../../favicon.ico">
-
-    <title>Bootstrap Carosel Gallery Demo</title>
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <title>Bootstrap Demo</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
+    <script src="https://use.fontawesome.com/aea6831f0b.js"></script>
   </head>
   <body>
 
@@ -20,25 +21,69 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#">Kitten NooStar</a>
+      <a class="navbar-brand" href="#">Capstone Corporation</a>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Who We Are <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Message From Our CEO</a>
+              <a class="dropdown-item" href="#">Company Profile</a>
+              <a class="dropdown-item" href="#">Mission & Values</a>
+              <a class="dropdown-item" href="#">Leadership</a>
+              <a class="dropdown-item" href="#">Locations</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              What We Do <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Advanced Solutions</a>
+              <a class="dropdown-item" href="#">Cyber and IT Solutions</a>
+              <a class="dropdown-item" href="#">Strategy, Plans, Operations</a>
+              <a class="dropdown-item" href="#">Training and Exercise Solutions</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Contracts <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Contract Vehicles</a>
+              <a class="dropdown-item" href="#">SeaPort-e</a>
+              <a class="dropdown-item" href="#">CIO-SP3</a>
+              <a class="dropdown-item" href="#">General Information</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              News & Awards <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Message From Our CEO</a>
+              <a class="dropdown-item" href="#">Company Profile</a>
+              <a class="dropdown-item" href="#">Mission & Values</a>
+              <a class="dropdown-item" href="#">Leadership</a>
+              <a class="dropdown-item" href="#">Locations</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Careers <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Benefits</a>
+              <a class="dropdown-item" href="#">Career Opportunities</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
           <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
+
+    <div class="sidebar hide">
+      <div class="social-icon"><a href="https://www.linkedin.com/company/323036?trk=tyah&trkInfo=tas%3Acapstone%20co%2Cidx%3A1-2-2"><i class="fa fa-linkedin" aria-hidden title="Follow Us On LinkedIn"></i><span class="sr-only">LinkedIn</span></a></div>
+      <div class="social-icon"><a href="mailto:info@capstonecorp.com"><i class="fa fa-info-circle" aria-hidden title="General Inquiries"></i><span class="sr-only">Email</span></a></div>
+      <div class="social-icon"><a href="#"><i class="fa fa-facebook" aria-hidden title="Follow Us"></i><span class="sr-only">Facebook</span></a></div>
+      <div class="social-icon"><a href="#"><i class="fa fa-twitter" aria-hidden title="Follow Us"></i><span class="sr-only">Twitter</span></a></div>
+
+    </div>
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -48,32 +93,29 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active">
-          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <img class="first-slide" src="assets/images/img7.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption d-none d-md-block text-left">
-              <h1>Example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+              <h1>Planning and managing nation-wide and world-wide operations.</h1>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <img class="second-slide" src="assets/images/img6.jpg" alt="Second slide">
           <div class="container">
-            <div class="carousel-caption d-none d-md-block">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>Developing cyber and IT solutions to meet current and future needs.</h1>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
         <div class="carousel-item">
-          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <img class="third-slide" src="assets/images/img8.jpg" alt="Third slide">
           <div class="container">
-            <div class="carousel-caption d-none d-md-block text-right">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            <div class="carousel-caption d-none d-md-block text-left">
+              <h1>Providing full-spectrum education, training, and exercise support to ensure mission readiness.</h1>
+              <p><a class="btn btn-lg btn-danger" href="#" role="button">Learn more</a></p>
             </div>
           </div>
         </div>
@@ -88,7 +130,6 @@
       </a>
     </div>
 
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -97,23 +138,29 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="assets/images/img1.png" alt="Generic placeholder image" width="200" height="200"> <!--original 140x140-->
+          <h2>ADVANCED SOLUTIONS</h2>
           <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="assets/images/img2.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>CYBER & IT SOLUTIONS</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="assets/images/img3.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>STRATEGY, PLANS & OPERATIONS</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-3">
+          <img class="rounded-circle" src="assets/images/img4.png" alt="Generic placeholder image" width="200" height="200">
+          <h2>TRAINING & EXERCISE SOLUTIONS</h2>
+          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+          <p><a class="btn btn-secondary" href="#" role="button">Read More &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
 
@@ -124,11 +171,11 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">December 21, 2017 Capstone on Winning Team to Provide U.S. Army with Training Support Systems Mission Support Services</h2>
+          <blockquote class="lead">I would like to commend Capstone employees for their exceptional service in the deployment of the 'My Training Home Page' (MTHP)...their efforts will be felt throughout the ARMY.</blockquote><cite>—Army COR</cite>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <a href="http://civilianjobs.com/MVE_Winners_2016.htm"><img class="featurette-image shadow-case img-fluid mx-auto" src="assets/images/img9.jpg" alt="Generic placeholder image"></a>
         </div>
       </div>
 
@@ -136,11 +183,11 @@
 
       <div class="row featurette">
         <div class="col-md-7 push-md-5">
-          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">November 30, 2017 Capstone Awarded GSA Professional Services Schedule</h2>
+          <blockquote class="lead">Best exercise we have ever been involved in. We are planning to do another one in the spring.</blockquote><cite>—Colonel, Italian Army</cite>
         </div>
         <div class="col-md-5 pull-md-7">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <a href="http://smartceo.com/wp-content/uploads/2017/02/DCEO_F50_PastWinners_17.pdf"><img class="featurette-image shadow-case img-fluid mx-auto" src="assets/images/img9-1.png" alt="Generic placeholder image"></a>
         </div>
       </div>
 
@@ -148,27 +195,57 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+          <h2 class="featurette-heading">October 6, 2017 Capstone Wins Re-Compete Contract for Commander, Navy Installations Command Program Management Oversight Services</h2>
+          <blockquote class="lead">Capstone employees have been very instrumental in support of our rapid deployment operations and our ability to train, maintain readiness, alert, obtain order to recall and mobilize our Sailors.</blockquote><cite>—CDR, Navy</cite>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+          <a href="https://www.inc.com/profile/capstone-alexandria-va"><img class="featurette-image shadow-case img-fluid mx-auto" src="assets/images/img9-2.png" alt="Generic placeholder image"></a>
         </div>
       </div>
+      <p class="float-right clearfix"><a href="#">Back to top</a></p>
 
-      <hr class="featurette-divider">
+      <hr class="featurette-divider final-divider">
 
       <!-- /END THE FEATURETTES -->
 
 
       <!-- FOOTER -->
       <footer>
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>Copyright &copy; 2018 Andrew Noonoo. All Rights Reserved</p>
-        <!-- &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a> -->
-      </footer>
+        <div class="motto">Working for your success</div>
+        <div class="errata clearfix">
+          <div class="row link-headings">
+            <div class="col-sm-3">Company</div>
+            <div class="col-sm-3">Careers</div>
+            <div class="col-sm-3">Employees</div>
+            <div class="col-sm-3">Other Links</div>
 
-    </div><!-- /.container -->
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3"><a class="errata-links" href="#">About Capstone</a></div>
+            <div class="col-sm-3"><a class="errata-links" href="#">Why Capstone</a></div>
+            <div class="col-sm-3"><a class="errata-links" href="#">Tools</a></div>
+            <div class="col-sm-3"><a class="errata-links" href="#">Privacy Policy</a></div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3"><a class="errata-links" href="#">Solutions</a></div>
+            <div class="col-sm-3"><a class="errata-links" href="#">Opportunities</a></div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3"><a class="errata-links" href="#">Contact Us</a></div>
+          </div>
+        </div>
+
+
+        <div class="copyright">
+          <p>Copyright &copy; 2018 Andrew Noonoo. All Rights Reserved</p>
+        </div>
+      </footer>
+    </div><!-- end marketing container -->
+
+
     <!-- jQuery, Tether, Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="scripts/jquery-slim.min.js"><\/script>')</script>

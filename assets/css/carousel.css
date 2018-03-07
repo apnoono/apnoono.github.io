@@ -139,7 +139,9 @@ footer {
 .errata-links{
   text-decoration: none;
   font-size: 11px;
+  padding: 5px;
   color: #CC3F1C;
+
 }
 .errata-links:hover {
   text-decoration: none;
@@ -157,11 +159,7 @@ footer {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
-@media (min-width: > 40em) {
-  .hide {
-    display: none;
-  }
-}
+
 @media (min-width: 40em) {
   /* Bump up size of carousel content */
   body {
@@ -170,9 +168,6 @@ footer {
     color: #5a5a5a;
     position: relative;
     margin: 0;
-  }
-  .hide {
-    display: ;
   }
   .sidebar {
     width: 5%;

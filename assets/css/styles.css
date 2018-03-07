@@ -150,8 +150,7 @@ footer {
 }
 
 .project {
-  width: 210px;
-  /* margin-left: 10px; */
+  margin: 10px auto;
 }
 
 .project-title {
@@ -159,19 +158,18 @@ footer {
   text-align: center;
 }
 
-.demo1 {
+.demo {
   border: 1px inset blue;
   border-radius: 5%;
-  width: 200px;
   box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
+  margin: 0 auto;
+}
+.demo1 {
+  width: 270px; /*default 200px */
 }
 .demo2 {
-  border: 1px inset blue;
-  border-radius: 5%;
-  width: 200px;
-  box-shadow: 10px 5px 5px #696969; /* dimgray shadow */
+  width: 500px; /*default 200px */
 }
-
 
 /* Work Experience styles */
 .work {
@@ -195,7 +193,7 @@ h3 ~ p {
 /* Education styles */
 .education {
   background: linear-gradient(rgba(141, 153, 174, 0.9), rgba(141, 153, 174, 0.8)),
-              url(../assets/images/book-stack.jpg) no-repeat fixed;
+              url(../images/book-stack.jpg) no-repeat fixed;
   background-position: center;
   background size: cover;
 }

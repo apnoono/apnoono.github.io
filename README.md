@@ -1,9 +1,8 @@
 # apnoono.github.io
-My GitHub Page
+My Front-End Portfolio
 
-A personal website doubling as a resume and project showcase.  Thanks to Christina
-Truong's course series on Lynda.com, "CSS Essential Training"
+A personal website doubling as a resume and project showcase.
+Kudos to Christina Truong's CSS course series on LinkedIn Learning, 
+[CSS Essential Training](http://linkedin-learning.pxf.io/vnyX0W)
 
-https://www.lynda.com/CSS-tutorials/CSS-Essential-Training-1/569190-2.html
-
-I intend to update the content on a monthly basis.
+I intend to update this site's content ~~monthly~~ whenever I'm on the job market :wink:

@@ -94,7 +94,7 @@ blockquote>p:after {
   font-size: 20px;
 }
 .profile-img {
-  border-radius: 50%;
+  border-radius: 30%;
 }
 .download {
   position: absolute;
@@ -219,6 +219,6 @@ p + h3 {
     text-align: center;
   }
   .profile-img {
-    width: 200px;
+    width: 300px;
   }
 }

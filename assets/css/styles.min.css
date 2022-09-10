@@ -1,1 +1,218 @@
-body,h3{margin:0}.btn,a:hover,nav a{text-decoration:none}.uppercase,nav a{text-transform:uppercase}.btn,.contact-info a,nav a{display:inline-block}.project-title,footer,nav{text-align:center}.demo,nav{box-shadow:10px 5px 5px #696969}html{box-sizing:border-box}*,:after,:before{box-sizing:inherit}body{font-family:'Open Sans',sans-serif;color:#333}h1,h2{font-family:'Reenie Beanie',cursive;font-weight:400}h1{font-size:80px}h2{font-size:40px;margin-top:0}a{color:#EF233C}.content-wrap{maxwidth:950px;margin:0 auto;padding:60px 50px;overflow:auto}.btn{background:#EF233C;color:#fff;padding:10px}footer,header{background:#2B2D42;color:#EDF2F4}header{padding-top:50px;position:relative}.content-bg{background-image:url(../assets/images/tech-glasses.jpg);background-repeat:no-repeat;background-position:center;background-attachment:fixed;background-size:cover}.alpha-bg{background-color:rgba(11,11,11,.5)}header h1,header h2{color:#EDF2F4;margin:0}blockquote>p:before{content:'\275D';color:red;font-size:20px}blockquote>p:after{content:'\275E';color:red;font-size:20px}.profile-img{border-radius:50%}.download{position:absolute;bottom:0;right:0}nav{position:fixed;background:#fff;width:100%;top:0;z-index:1}#project-section,.work{background:#EDF2F4}nav a{padding:15px 20px;font-weight:700}.contact-info a{padding:20px;font-size:30px}.fa-linkedin:before{color:#0077B5}.fa-github:before{color:#FFF}.showcase{width:800px;display:flex;flex-direction:row;flex-wrap:wrap;margin:0 auto}.project{margin:10px auto}.project-title{padding-bottom:5px}.demo{border:1px inset #00f;border-radius:5%;margin:0 auto}.demo1{width:270px}.demo2{width:500px}h3~p{margin:0}.job-description{margin-bottom:25px}.job-description ul{list-style-type:square}.job-description p:first-of-type{margin-top:0}.education{background:linear-gradient(rgba(141,153,174,.9),rgba(141,153,174,.8)),url(../images/book-stack.jpg) no-repeat fixed;background-position:center;background size:cover}p+h3{margin-top:30px}@media (min-width:900px){.col-narrow{width:30%;float:left}.col-wide{width:70%;float:left;padding-left:20px}}@media (max-width:899px){header{text-align:center}.profile-img{width:200px}}
+body, h3, h3 ~ p {
+    margin: 0
+}
+
+.btn, a:hover, nav a {
+    text-decoration: none
+}
+
+.uppercase, nav a {
+    text-transform: uppercase
+}
+
+.btn, .contact-info a, nav a {
+    display: inline-block
+}
+
+.project-title, footer, nav {
+    text-align: center
+}
+
+.demo, nav {
+    box-shadow: 10px 5px 5px #696969
+}
+
+.job-description p:first-of-type, h2 {
+    margin-top: 0
+}
+
+html {
+    box-sizing: border-box
+}
+
+*, :after, :before {
+    box-sizing: inherit
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #333
+}
+
+h1, h2 {
+    font-family: 'Reenie Beanie',cursive;
+    font-weight: 400
+}
+
+h1 {
+    font-size: 80px
+}
+
+h2 {
+    font-size: 40px
+}
+
+a {
+    color: #ef233c
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: auto
+}
+
+.btn {
+    background: #ef233c;
+    color: #fff;
+    padding: 10px
+}
+
+footer, header {
+    background: #2b2d42;
+    color: #edf2f4
+}
+
+header {
+    padding-top: 50px;
+    position: relative
+}
+
+.content-bg {
+    background-image: url(../assets/images/tech-glasses.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover
+}
+
+.alpha-bg {
+    background-color: rgba(11,11,11,.5)
+}
+
+header h1, header h2 {
+    color: #edf2f4;
+    margin: 0
+}
+
+blockquote > p:before {
+    content: '\275D';
+    color: red;
+    font-size: 20px
+}
+
+blockquote > p:after {
+    content: '\275E';
+    color: red;
+    font-size: 20px
+}
+
+.profile-img {
+    border-radius: 50%
+}
+
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0
+}
+
+nav {
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    top: 0;
+    z-index: 1
+}
+
+    nav a {
+        padding: 15px 20px;
+        font-weight: 700
+    }
+
+.contact-info a {
+    padding: 20px;
+    font-size: 30px
+}
+
+.fa-linkedin:before {
+    color: #0077b5
+}
+
+.fa-github:before {
+    color: #fff
+}
+
+#project-section, .work {
+    background: #edf2f4
+}
+
+.showcase {
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto
+}
+
+.project {
+    margin: 10px auto
+}
+
+.project-title {
+    padding-bottom: 5px
+}
+
+.demo {
+    border: 1px inset #00f;
+    border-radius: 5%;
+    margin: 0 auto
+}
+
+.demo1 {
+    width: 270px
+}
+
+.demo2 {
+    width: 500px
+}
+
+.job-description {
+    margin-bottom: 25px
+}
+
+    .job-description ul {
+        list-style-type: square
+    }
+
+.education {
+    background: linear-gradient(rgba(141,153,174,.9),rgba(141,153,174,.8)) center,url(../images/book-stack.jpg) center no-repeat fixed
+}
+
+p + h3 {
+    margin-top: 30px
+}
+
+@media (min-width:900px) {
+    .col-narrow {
+        width: 30%;
+        float: left
+    }
+
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px
+    }
+}
+
+@media (max-width:899px) {
+    header {
+        text-align: center
+    }
+
+    .profile-img {
+        width: 300px
+    }
+}

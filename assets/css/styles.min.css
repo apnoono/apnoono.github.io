@@ -80,7 +80,7 @@ header {
 }
 
 .content-bg {
-    background-image: url(../assets/images/tech-glasses.jpg);
+    background-image: url('../images/tech-glasses.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -88,7 +88,7 @@ header {
 }
 
 .alpha-bg {
-    background-color: rgba(11,11,11,.5)
+    background-color: rgba(11,11,11,.8)
 }
 
 header h1, header h2 {
@@ -109,7 +109,8 @@ blockquote > p:after {
 }
 
 .profile-img {
-    border-radius: 50%
+    border-radius: 100%;
+    border: 3px ridge #fff
 }
 
 .download {

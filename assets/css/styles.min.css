@@ -109,7 +109,7 @@ blockquote > p:after {
 }
 
 .profile-img {
-    border-radius: 100%;
+    border-radius: 100px;
     border: 3px ridge #fff
 }
 

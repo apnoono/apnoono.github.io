@@ -41,7 +41,7 @@ a:hover {
   text-decoration: none;
 }
 .content-wrap {
-  maxwidth: 950px;
+  max-width: 950px;
   margin: 0 auto;
   padding: 60px 50px;
   overflow: auto;
@@ -70,14 +70,14 @@ header {
   position: relative;
 }
 .content-bg {
-  background-image: url(../assets/images/tech-glasses.jpg);
+  background-image: url('../images/tech-glasses.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
 }
 .alpha-bg {
-  background-color: rgba(11, 11, 11, 0.5); /*an alpha transparency screen*/
+  background-color: rgba(11, 11, 11, 0.8); /*an alpha transparency screen*/
 }
 header h1, header h2 {
   color: #EDF2F4;
@@ -94,7 +94,8 @@ blockquote>p:after {
   font-size: 20px;
 }
 .profile-img {
-  border-radius: 50%;
+  border-radius: 100px;
+  border: ridge 3px white;
 }
 .download {
   position: absolute;
@@ -219,6 +220,6 @@ p + h3 {
     text-align: center;
   }
   .profile-img {
-    width: 200px;
+    width: 300px;
   }
 }
